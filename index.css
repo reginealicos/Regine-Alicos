@@ -1,0 +1,72 @@
+/* Body and Page Setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f9; /* Pastel pink background */
+}
+
+/* Container with A4 size */
+.resume-container {
+  display: flex;
+  max-width: 794px; /* A4 width in pixels */
+  height: 1123px;   /* A4 height in pixels */
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Columns */
+.left-column {
+  width: 35%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.right-column {
+  width: 65%;
+  padding: 20px;
+}
+
+/* Profile Picture Styling: 2x2 inches */
+.profile {
+  width: 180px;  /* 2 inches at 96dpi = 192px */
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 2px solid #f8bbd0;
+}
+
+/* Headings and Text */
+h1 {
+  font-size: 36px;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #8e24aa;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+p, ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.signature {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 40px;
+}
